@@ -5,9 +5,9 @@ package entities
 type Dosen struct {
 	Id           uint64
 	NamaDosen    string
-	Nidn         string
+	NIDN         string
 	JenisKelamin string
-	Alamant      string
+	Alamat       string
 	TempatLahir  string
 	TanggalLahir string
 	NoTlp        string

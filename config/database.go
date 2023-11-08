@@ -1,6 +1,10 @@
 package config
 
-import "database/sql"
+import (
+	"database/sql"
+
+	_ "github.com/go-sql-driver/mysql"
+)
 
 func ConnectDB() (*sql.DB, error) {
 	DB_DRIVER := "mysql"
